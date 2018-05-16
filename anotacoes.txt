@@ -1,0 +1,25 @@
+# Curso React-Redux
+
+## Webpack
+- webpack.config.js:
+	É necessário um arquivo de entrada da aplicação (entryPoint)
+	Esse arquivo não é monitorado pelo webpack
+
+- webpack-dev-server cria um servidor para a aplicação, provê auto reloading e build
+- Iniciar servidor:
+	$ webpack-dev-server --progress --colors --inline --hot
+	--progress: em tempo de desenvolvimento
+	--colors: saidas coloridas
+	--inline: não sei kk
+	--hot: auto-refresh no browser
+- Para modularizar posso usar os padrões:
+	Padrão do Node: CommonJS
+		const varLocal = require('dependencia')
+	Padrão do ES6
+		import Pessoa from './Pessoa'
+- Um Arquivos não é carregado se não foi referenciado
+- Para usar um código que não é ainda suporta pelo browser é necessário usar um transpiler, para "traduzir o código"
+- Um dos transpiler mais conhecidos é o Babel
+- Babel utiliza loaders, que é uma configuração que vai carregar os arquivos
+- Spread Operator(...), pega cada um dos atributos de um objeto e passa para uma função
+- É necessário um plugin adicional para poder utilizar o spread operator
