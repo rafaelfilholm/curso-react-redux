@@ -23,3 +23,7 @@
 - Babel utiliza loaders, que é uma configuração que vai carregar os arquivos
 - Spread Operator(...), pega cada um dos atributos de um objeto e passa para uma função
 - É necessário um plugin adicional para poder utilizar o spread operator
+
+## React
+- Utiliza JSX como tipo de arquivo
+- É possível criar componentes baseados em funções e baseados em classes
